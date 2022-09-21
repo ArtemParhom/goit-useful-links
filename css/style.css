@@ -7,32 +7,27 @@ header {
 img {
     width: 270px;
 }
-h1 {
+h1 { 
     margin: auto;
     padding: 10px;
 }
-caption {
-    border: solid 1px;
-    border-radius: 5px 5px 0 0;
+h2 { 
+    padding-left: 60px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-table {
-    border: solid 1px;
-    border-radius: 0 0 5px 5px;
-}
-th {
-    padding: 5px;
-    border-radius: 5px;
-    border: solid 1px rgb(202, 19, 19);
-}
-button:hover {
-    color: aqua;
-}
-button:active {
-    background-color: rgb(255, 6, 6);
-}
-sub {
-    color: rgb(241, 21, 21);
-}
+
+
 li {
+    color: #FF6B08;
     margin: 5px;
+}
+a {
+    color: rgb(97, 95, 95);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icons {
+    height: 18px;
+    width: 18px;
+    padding-left: 10px;
+    margin-bottom: -2px;
 }

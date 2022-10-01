@@ -10,7 +10,7 @@ img {
 }
 
 html, body {  
-    height: 99%;
+    height: 95%;
 }
 
 body {
@@ -53,23 +53,26 @@ a {
     padding-left: 10px;
     margin-bottom: -2px;
 }
-footer {
-   
+
+footer {  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    border: solid 1px #000; 
-    margin-bottom: 30px;  
+    border: solid 1px #000;  
+    margin-bottom: 30px;
     background: linear-gradient(#0058B5,#F7CE00);
 }
+
 a:hover {
     text-decoration: underline #FF6B08;
 }
+
 @media screen and (max-width: 800px){
     h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 700px){
     header img {
         width: 120px;
     }
